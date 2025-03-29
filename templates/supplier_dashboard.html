@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supplier Dashboard</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <h1>Welcome, {{ username }} (Supplier)</h1>
+    <p>View orders and verify deliveries.</p>
+
+    <button onclick="window.location.href='/view_orders'">View Orders</button>
+    <button onclick="window.location.href='/verify_delivery'">Verify Delivery</button>
+    <button onclick="window.location.href='/'">Logout</button>
+</body>
+</html>

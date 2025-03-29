@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="static\styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Register</h2>
+        <form action="/register" method="POST">
+             <!-- USERNAME -->
+             <div class="input-container">
+                <span class="icon">👤</span>
+                <input type="text" name="username" placeholder="Username">
+            </div>
+            <!-- PASSWORD -->
+            <div class="input-container">
+                <span class="icon">🔒</span>
+                <input type="password" name="password" placeholder="Password">
+            </div>
+            <label for="role">Select Role:</label>
+            <select name="role" id="role">
+                <option value="farmer">Farmer</option>
+                <option value="customer">Customer</option>
+                <option value="supplier">Supplier</option>
+            </select>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+    
+</body>
+</html>
